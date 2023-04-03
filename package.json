@@ -1,0 +1,14 @@
+{
+  "name": "nodejs_lua",
+  "author": "cymerous",
+  "license": "MIT",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^6.0.0"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild"
+  }
+}
